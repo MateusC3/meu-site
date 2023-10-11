@@ -1,0 +1,218 @@
+body {
+            font-family: Arial, sans-serif;
+            color: #fbfdff;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #foto-perfil{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #827e7e;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Exibe os itens em linha (horizontalmente) */
+            justify-content: center;
+        }
+
+        nav li {
+            /*display: inline;*/
+            /*margin-right: 20px;*/
+            margin: 0 15px; /* Espaçamento entre os itens */
+            font-size: 18px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333; /* Cor do texto */
+            padding: 10px 20px; /* Espaçamento interno */
+            border: 2px solid #333; /* Borda sólida */
+            border-radius: 25px; /* Borda arredondada */
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #333; /* Cor de fundo no hover */
+            color: #fff; /* Cor do texto no hover */
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        
+        .page {
+            display: none;
+        }
+        
+        .page.active {
+            display: block;
+        }
+    
+/* Estilização para o contêiner principal do "Sobre Mim" */
+#sobre-mim {
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilização para o título */
+#sobre-mim h2 {
+  font-size: 24px; 
+  color: #333; 
+  margin-bottom: 10px; /
+}
+
+/* Estilização para o parágrafo de descrição */
+#sobre-mim p {
+  font-size: 16px; 
+  color: #666; 
+  line-height: 1.5; 
+}
+
+/* Estilização para as palavras-chave (tecnologia, programação, etc.) */
+ .keywords {
+  font-weight: bold; 
+  color: #007bff; 
+}
+
+#contato a{
+      
+     text-decoration: none; 
+     font-weight: bold;
+    }
+
+#contato a:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.project-link1{
+     
+    
+     color: white; 
+     text-decoration: none; 
+     font-weight: bold;
+     border: 5px solid orangered;
+     background-color: orangered;
+     border-radius: 20px;
+     
+    }
+
+.project-link1:hover{
+     
+    color: orangered;
+    font-weight: bold;
+    border: 5px solid white;
+    background-color: white;
+     
+    }
+
+.project-link2{
+     
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 5px solid orangered;
+     background-color: orangered;
+     border-radius: 20px;
+     
+    }
+
+.project-link2:hover{
+
+    color: orangered;
+    font-weight: bold;
+    border: 5px solid white;
+    background-color: white;
+    
+
+}
+
+.project-link3{
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+    border: 5px solid orangered;
+     background-color: orangered;
+     border-radius: 20px;
+}
+
+.project-link3:hover{
+   color: orangered;
+    font-weight: bold;
+    border: 5px solid white;
+    background-color: white;
+}
+
+.project-item{
+    text-align: left;
+    list-style: none;
+}
+
+.email{
+    color: white;
+    border: 5px solid orangered;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+.insta{
+    color: white;
+    border: 5px solid rgb(231, 4, 95);
+     background-color: rgb(231, 4, 95);
+     border-radius: 20px;
+}
+
+.whatsapp{
+    color: white;
+    border: 5px solid green;
+     background-color: green;
+     border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    /* Modificações para telas menores */
+
+    nav ul {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0; /* Espaçamento entre os itens */
+    }
+
+    nav a {
+        display: block; /* Transforme os links em blocos */
+    }
+
+    #sobre-mim {
+        padding: 10px;
+    }
+    
+    
+}
